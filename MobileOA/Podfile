@@ -1,0 +1,54 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, 9.0
+
+inhibit_all_warnings!
+
+workspace 'MobileOA'
+
+# Framework project
+
+project 'iCore/iCore.xcodeproj'
+project 'iCustomKit/iCustomKit.xcodeproj'
+project 'iNetWorkKit/iNetWorkKit.xcodeproj'
+project 'MobileOA/MobileOA.xcodeproj'
+
+# App project
+
+
+# iCore 需要引入的 Pods
+target :iCore do
+
+    project 'iCore/iCore.xcodeproj'
+
+end
+
+target :iNetWorkKit do
+    
+    project 'iNetWorkKit/iNetWorkKit.xcodeproj'
+    
+    pod 'AFNetworking', '~> 3.0'     #网络请求
+    pod 'OHHTTPStubs'  #模拟网络请求
+    
+end
+
+target :iCustomKit do
+    
+    project 'iCustomKit/iCustomKit.xcodeproj'
+
+    pod 'Toast', '~> 3.1.0'
+    pod 'MBProgressHUD'
+    
+end
+
+target :MobileOA do
+    
+    project 'MobileOA/MobileOA.xcodeproj'
+    
+    pod 'Masonry', '1.0.1'
+    pod 'GVUserDefaults'
+
+    pod 'XAspect'
+    pod 'Aspects'
+    
+end

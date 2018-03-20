@@ -1,0 +1,21 @@
+//
+//  PCustomKit-PrefixHeader.pch
+//  PCustomKit
+//
+//  Created by renqingyang on 2017/11/8.
+//  Copyright © 2017年 ren. All rights reserved.
+//
+
+#ifndef PCustomKit_PrefixHeader_pch
+#define PCustomKit_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <iCore/iCore.h>
+#import "PMacro_CustomKitBundle.h"
+
+#endif
+
+#endif /* PCustomKit_PrefixHeader_pch */

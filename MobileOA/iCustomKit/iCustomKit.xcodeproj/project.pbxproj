@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55136EE64EB052FD01FABB93 /* libPods-iCustomKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1826D9B916765A32B3ED073B /* libPods-iCustomKit.a */; };
+		CFB213F2206100FF00B23A36 /* iCustomKit-PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = CFB21378206100FF00B23A36 /* iCustomKit-PrefixHeader.pch */; };
+		CFB213F3206100FF00B23A36 /* iCustomKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB21379206100FF00B23A36 /* iCustomKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB213F5206100FF00B23A36 /* UIImage+PImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB2137D206100FF00B23A36 /* UIImage+PImage.m */; };
+		CFB213F6206100FF00B23A36 /* UIView+PHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB2137E206100FF00B23A36 /* UIView+PHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB213F9206100FF00B23A36 /* UIButton+PImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB21381206100FF00B23A36 /* UIButton+PImageTitleSpacing.m */; };
+		CFB213FA206100FF00B23A36 /* PBaseViewController+PLoadStatusView.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB21382206100FF00B23A36 /* PBaseViewController+PLoadStatusView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB213FB206100FF00B23A36 /* PBaseViewController+PHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB21383206100FF00B23A36 /* PBaseViewController+PHUD.m */; };
+		CFB213FD206100FF00B23A36 /* UIView+PToast.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB21385206100FF00B23A36 /* UIView+PToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB213FE206100FF00B23A36 /* PBaseViewController+PToast.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB21386206100FF00B23A36 /* PBaseViewController+PToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB21400206100FF00B23A36 /* UIButton+PBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB21388206100FF00B23A36 /* UIButton+PBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB21402206100FF00B23A36 /* UIView+PHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB2138A206100FF00B23A36 /* UIView+PHUD.m */; };
+		CFB21403206100FF00B23A36 /* UIImage+PImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB2138B206100FF00B23A36 /* UIImage+PImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB21405206100FF00B23A36 /* UIButton+PImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB2138D206100FF00B23A36 /* UIButton+PImageTitleSpacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB21408206100FF00B23A36 /* PBaseViewController+PToast.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB21390206100FF00B23A36 /* PBaseViewController+PToast.m */; };
+		CFB21409206100FF00B23A36 /* UIView+PToast.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB21391206100FF00B23A36 /* UIView+PToast.m */; };
+		CFB2140B206100FF00B23A36 /* PBaseViewController+PHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB21393206100FF00B23A36 /* PBaseViewController+PHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB2140C206100FF00B23A36 /* PBaseViewController+PLoadStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB21394206100FF00B23A36 /* PBaseViewController+PLoadStatusView.m */; };
+		CFB2140D206100FF00B23A36 /* UIButton+PBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB21395206100FF00B23A36 /* UIButton+PBlock.m */; };
+		CFB2140E206100FF00B23A36 /* PMacro_BaseAPIURL.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB21397206100FF00B23A36 /* PMacro_BaseAPIURL.h */; };
+		CFB2140F206100FF00B23A36 /* PMacro_CustomKitBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB21398206100FF00B23A36 /* PMacro_CustomKitBundle.h */; };
+		CFB21411206100FF00B23A36 /* PWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB2139B206100FF00B23A36 /* PWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB21416206100FF00B23A36 /* PBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB213A1206100FF00B23A36 /* PBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB21417206100FF00B23A36 /* PWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB213A2206100FF00B23A36 /* PWebViewController.m */; };
+		CFB21418206100FF00B23A36 /* PBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB213A3206100FF00B23A36 /* PBaseViewController.m */; };
+		CFB21419206100FF00B23A36 /* ZBMacro_NSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB213A5206100FF00B23A36 /* ZBMacro_NSLog.h */; };
+		CFB21420206100FF00B23A36 /* PImgPickerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB213AF206100FF00B23A36 /* PImgPickerTool.m */; };
+		CFB21421206100FF00B23A36 /* PImgPickerTool.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB213B0206100FF00B23A36 /* PImgPickerTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB21424206100FF00B23A36 /* PWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB213B4206100FF00B23A36 /* PWKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB21425206100FF00B23A36 /* PWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB213B5206100FF00B23A36 /* PWKWebView.m */; };
+		CFB214452061010000B23A36 /* PExpandTouchRegionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB213DD206100FF00B23A36 /* PExpandTouchRegionButton.m */; };
+		CFB214462061010000B23A36 /* PExpandTouchRegionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB213DE206100FF00B23A36 /* PExpandTouchRegionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB214482061010000B23A36 /* PLoadStatusViewSet.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB213E1206100FF00B23A36 /* PLoadStatusViewSet.h */; };
+		CFB214492061010000B23A36 /* PLoadStatusViewSetSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB213E2206100FF00B23A36 /* PLoadStatusViewSetSource.h */; };
+		CFB2144A2061010000B23A36 /* PLoadStatusView.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB213E3206100FF00B23A36 /* PLoadStatusView.h */; };
+		CFB2144B2061010000B23A36 /* PLoadStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB213E4206100FF00B23A36 /* PLoadStatusView.m */; };
+		CFB2144C2061010000B23A36 /* PBaseResource.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB213E7206100FF00B23A36 /* PBaseResource.m */; };
+		CFB2144D2061010000B23A36 /* PNetResourecManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB213E8206100FF00B23A36 /* PNetResourecManager.m */; };
+		CFB2144E2061010000B23A36 /* PNetWorkHttpStubConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB213E9206100FF00B23A36 /* PNetWorkHttpStubConfig.m */; };
+		CFB2144F2061010000B23A36 /* PBaseResource.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB213EA206100FF00B23A36 /* PBaseResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB214502061010000B23A36 /* PNetWorkHttpStubConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB213EB206100FF00B23A36 /* PNetWorkHttpStubConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB214512061010000B23A36 /* PNetResourecManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB213EC206100FF00B23A36 /* PNetResourecManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB214562061105800B23A36 /* iCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB214572061105800B23A36 /* iCore.framework */; };
+		CFB214582061105C00B23A36 /* iNetWorkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB214592061105C00B23A36 /* iNetWorkKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1826D9B916765A32B3ED073B /* libPods-iCustomKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iCustomKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		382F53E0DC5ACE1B903DAE8F /* Pods-iCustomKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCustomKit.release.xcconfig"; path = "../Pods/Target Support Files/Pods-iCustomKit/Pods-iCustomKit.release.xcconfig"; sourceTree = "<group>"; };
+		CD1FA78DFC2FD287D8235DD4 /* Pods-iCustomKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCustomKit.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-iCustomKit/Pods-iCustomKit.debug.xcconfig"; sourceTree = "<group>"; };
+		CFB212112060E10E00B23A36 /* iCustomKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iCustomKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB212152060E10E00B23A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB21378206100FF00B23A36 /* iCustomKit-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iCustomKit-PrefixHeader.pch"; sourceTree = "<group>"; };
+		CFB21379206100FF00B23A36 /* iCustomKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCustomKit.h; sourceTree = "<group>"; };
+		CFB2137D206100FF00B23A36 /* UIImage+PImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PImage.m"; sourceTree = "<group>"; };
+		CFB2137E206100FF00B23A36 /* UIView+PHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PHUD.h"; sourceTree = "<group>"; };
+		CFB21381206100FF00B23A36 /* UIButton+PImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PImageTitleSpacing.m"; sourceTree = "<group>"; };
+		CFB21382206100FF00B23A36 /* PBaseViewController+PLoadStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PBaseViewController+PLoadStatusView.h"; sourceTree = "<group>"; };
+		CFB21383206100FF00B23A36 /* PBaseViewController+PHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PBaseViewController+PHUD.m"; sourceTree = "<group>"; };
+		CFB21385206100FF00B23A36 /* UIView+PToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PToast.h"; sourceTree = "<group>"; };
+		CFB21386206100FF00B23A36 /* PBaseViewController+PToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PBaseViewController+PToast.h"; sourceTree = "<group>"; };
+		CFB21388206100FF00B23A36 /* UIButton+PBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PBlock.h"; sourceTree = "<group>"; };
+		CFB2138A206100FF00B23A36 /* UIView+PHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PHUD.m"; sourceTree = "<group>"; };
+		CFB2138B206100FF00B23A36 /* UIImage+PImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PImage.h"; sourceTree = "<group>"; };
+		CFB2138D206100FF00B23A36 /* UIButton+PImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PImageTitleSpacing.h"; sourceTree = "<group>"; };
+		CFB21390206100FF00B23A36 /* PBaseViewController+PToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PBaseViewController+PToast.m"; sourceTree = "<group>"; };
+		CFB21391206100FF00B23A36 /* UIView+PToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PToast.m"; sourceTree = "<group>"; };
+		CFB21393206100FF00B23A36 /* PBaseViewController+PHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PBaseViewController+PHUD.h"; sourceTree = "<group>"; };
+		CFB21394206100FF00B23A36 /* PBaseViewController+PLoadStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PBaseViewController+PLoadStatusView.m"; sourceTree = "<group>"; };
+		CFB21395206100FF00B23A36 /* UIButton+PBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PBlock.m"; sourceTree = "<group>"; };
+		CFB21397206100FF00B23A36 /* PMacro_BaseAPIURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMacro_BaseAPIURL.h; sourceTree = "<group>"; };
+		CFB21398206100FF00B23A36 /* PMacro_CustomKitBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMacro_CustomKitBundle.h; sourceTree = "<group>"; };
+		CFB2139B206100FF00B23A36 /* PWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWebViewController.h; sourceTree = "<group>"; };
+		CFB213A1206100FF00B23A36 /* PBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBaseViewController.h; sourceTree = "<group>"; };
+		CFB213A2206100FF00B23A36 /* PWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWebViewController.m; sourceTree = "<group>"; };
+		CFB213A3206100FF00B23A36 /* PBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBaseViewController.m; sourceTree = "<group>"; };
+		CFB213A5206100FF00B23A36 /* ZBMacro_NSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBMacro_NSLog.h; sourceTree = "<group>"; };
+		CFB213AF206100FF00B23A36 /* PImgPickerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PImgPickerTool.m; sourceTree = "<group>"; };
+		CFB213B0206100FF00B23A36 /* PImgPickerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PImgPickerTool.h; sourceTree = "<group>"; };
+		CFB213B4206100FF00B23A36 /* PWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWKWebView.h; sourceTree = "<group>"; };
+		CFB213B5206100FF00B23A36 /* PWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWKWebView.m; sourceTree = "<group>"; };
+		CFB213DD206100FF00B23A36 /* PExpandTouchRegionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PExpandTouchRegionButton.m; sourceTree = "<group>"; };
+		CFB213DE206100FF00B23A36 /* PExpandTouchRegionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PExpandTouchRegionButton.h; sourceTree = "<group>"; };
+		CFB213E1206100FF00B23A36 /* PLoadStatusViewSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLoadStatusViewSet.h; sourceTree = "<group>"; };
+		CFB213E2206100FF00B23A36 /* PLoadStatusViewSetSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLoadStatusViewSetSource.h; sourceTree = "<group>"; };
+		CFB213E3206100FF00B23A36 /* PLoadStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLoadStatusView.h; sourceTree = "<group>"; };
+		CFB213E4206100FF00B23A36 /* PLoadStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLoadStatusView.m; sourceTree = "<group>"; };
+		CFB213E7206100FF00B23A36 /* PBaseResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBaseResource.m; sourceTree = "<group>"; };
+		CFB213E8206100FF00B23A36 /* PNetResourecManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNetResourecManager.m; sourceTree = "<group>"; };
+		CFB213E9206100FF00B23A36 /* PNetWorkHttpStubConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNetWorkHttpStubConfig.m; sourceTree = "<group>"; };
+		CFB213EA206100FF00B23A36 /* PBaseResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBaseResource.h; sourceTree = "<group>"; };
+		CFB213EB206100FF00B23A36 /* PNetWorkHttpStubConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNetWorkHttpStubConfig.h; sourceTree = "<group>"; };
+		CFB213EC206100FF00B23A36 /* PNetResourecManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNetResourecManager.h; sourceTree = "<group>"; };
+		CFB214572061105800B23A36 /* iCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB214592061105C00B23A36 /* iNetWorkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iNetWorkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFB2120D2060E10E00B23A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB214582061105C00B23A36 /* iNetWorkKit.framework in Frameworks */,
+				CFB214562061105800B23A36 /* iCore.framework in Frameworks */,
+				55136EE64EB052FD01FABB93 /* libPods-iCustomKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4656168905DAD5E987796AFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD1FA78DFC2FD287D8235DD4 /* Pods-iCustomKit.debug.xcconfig */,
+				382F53E0DC5ACE1B903DAE8F /* Pods-iCustomKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8738769225C254073A271E2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFB214592061105C00B23A36 /* iNetWorkKit.framework */,
+				CFB214572061105800B23A36 /* iCore.framework */,
+				1826D9B916765A32B3ED073B /* libPods-iCustomKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFB212072060E10E00B23A36 = {
+			isa = PBXGroup;
+			children = (
+				CFB212132060E10E00B23A36 /* iCustomKit */,
+				CFB212122060E10E00B23A36 /* Products */,
+				4656168905DAD5E987796AFC /* Pods */,
+				8738769225C254073A271E2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB212122060E10E00B23A36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFB212112060E10E00B23A36 /* iCustomKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB212132060E10E00B23A36 /* iCustomKit */ = {
+			isa = PBXGroup;
+			children = (
+				CFB21377206100FF00B23A36 /* Header */,
+				CFB2137A206100FF00B23A36 /* Utilities */,
+				CFB213E5206100FF00B23A36 /* Vendor */,
+				CFB212152060E10E00B23A36 /* Info.plist */,
+			);
+			path = iCustomKit;
+			sourceTree = "<group>";
+		};
+		CFB21377206100FF00B23A36 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				CFB21378206100FF00B23A36 /* iCustomKit-PrefixHeader.pch */,
+				CFB21379206100FF00B23A36 /* iCustomKit.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		CFB2137A206100FF00B23A36 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CFB2137B206100FF00B23A36 /* Extensions */,
+				CFB21396206100FF00B23A36 /* Macros */,
+				CFB2139A206100FF00B23A36 /* ViewControllers */,
+				CFB213A4206100FF00B23A36 /* Log */,
+				CFB213A6206100FF00B23A36 /* Views */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CFB2137B206100FF00B23A36 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CFB21388206100FF00B23A36 /* UIButton+PBlock.h */,
+				CFB21395206100FF00B23A36 /* UIButton+PBlock.m */,
+				CFB2138D206100FF00B23A36 /* UIButton+PImageTitleSpacing.h */,
+				CFB21381206100FF00B23A36 /* UIButton+PImageTitleSpacing.m */,
+				CFB2138B206100FF00B23A36 /* UIImage+PImage.h */,
+				CFB2137D206100FF00B23A36 /* UIImage+PImage.m */,
+				CFB2137E206100FF00B23A36 /* UIView+PHUD.h */,
+				CFB2138A206100FF00B23A36 /* UIView+PHUD.m */,
+				CFB21385206100FF00B23A36 /* UIView+PToast.h */,
+				CFB21391206100FF00B23A36 /* UIView+PToast.m */,
+				CFB21393206100FF00B23A36 /* PBaseViewController+PHUD.h */,
+				CFB21383206100FF00B23A36 /* PBaseViewController+PHUD.m */,
+				CFB21382206100FF00B23A36 /* PBaseViewController+PLoadStatusView.h */,
+				CFB21394206100FF00B23A36 /* PBaseViewController+PLoadStatusView.m */,
+				CFB21386206100FF00B23A36 /* PBaseViewController+PToast.h */,
+				CFB21390206100FF00B23A36 /* PBaseViewController+PToast.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CFB21396206100FF00B23A36 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				CFB21397206100FF00B23A36 /* PMacro_BaseAPIURL.h */,
+				CFB21398206100FF00B23A36 /* PMacro_CustomKitBundle.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		CFB2139A206100FF00B23A36 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFB213A1206100FF00B23A36 /* PBaseViewController.h */,
+				CFB213A3206100FF00B23A36 /* PBaseViewController.m */,
+				CFB2139B206100FF00B23A36 /* PWebViewController.h */,
+				CFB213A2206100FF00B23A36 /* PWebViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CFB213A4206100FF00B23A36 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				CFB213A5206100FF00B23A36 /* ZBMacro_NSLog.h */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		CFB213A6206100FF00B23A36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFB213DC206100FF00B23A36 /* ExpandTouchRegionButton */,
+				CFB213AE206100FF00B23A36 /* ImagePicker */,
+				CFB213B3206100FF00B23A36 /* WKWebView */,
+				CFB213E0206100FF00B23A36 /* LoadStatusView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFB213AE206100FF00B23A36 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				CFB213B0206100FF00B23A36 /* PImgPickerTool.h */,
+				CFB213AF206100FF00B23A36 /* PImgPickerTool.m */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		CFB213B3206100FF00B23A36 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				CFB213B4206100FF00B23A36 /* PWKWebView.h */,
+				CFB213B5206100FF00B23A36 /* PWKWebView.m */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
+		CFB213DC206100FF00B23A36 /* ExpandTouchRegionButton */ = {
+			isa = PBXGroup;
+			children = (
+				CFB213DE206100FF00B23A36 /* PExpandTouchRegionButton.h */,
+				CFB213DD206100FF00B23A36 /* PExpandTouchRegionButton.m */,
+			);
+			path = ExpandTouchRegionButton;
+			sourceTree = "<group>";
+		};
+		CFB213E0206100FF00B23A36 /* LoadStatusView */ = {
+			isa = PBXGroup;
+			children = (
+				CFB213E1206100FF00B23A36 /* PLoadStatusViewSet.h */,
+				CFB213E2206100FF00B23A36 /* PLoadStatusViewSetSource.h */,
+				CFB213E3206100FF00B23A36 /* PLoadStatusView.h */,
+				CFB213E4206100FF00B23A36 /* PLoadStatusView.m */,
+			);
+			path = LoadStatusView;
+			sourceTree = "<group>";
+		};
+		CFB213E5206100FF00B23A36 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CFB213E6206100FF00B23A36 /* BaseResource */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		CFB213E6206100FF00B23A36 /* BaseResource */ = {
+			isa = PBXGroup;
+			children = (
+				CFB213EA206100FF00B23A36 /* PBaseResource.h */,
+				CFB213E7206100FF00B23A36 /* PBaseResource.m */,
+				CFB213EC206100FF00B23A36 /* PNetResourecManager.h */,
+				CFB213E8206100FF00B23A36 /* PNetResourecManager.m */,
+				CFB213EB206100FF00B23A36 /* PNetWorkHttpStubConfig.h */,
+				CFB213E9206100FF00B23A36 /* PNetWorkHttpStubConfig.m */,
+			);
+			path = BaseResource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CFB2120E2060E10E00B23A36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB2140B206100FF00B23A36 /* PBaseViewController+PHUD.h in Headers */,
+				CFB21400206100FF00B23A36 /* UIButton+PBlock.h in Headers */,
+				CFB21421206100FF00B23A36 /* PImgPickerTool.h in Headers */,
+				CFB213F2206100FF00B23A36 /* iCustomKit-PrefixHeader.pch in Headers */,
+				CFB2144F2061010000B23A36 /* PBaseResource.h in Headers */,
+				CFB21411206100FF00B23A36 /* PWebViewController.h in Headers */,
+				CFB2140E206100FF00B23A36 /* PMacro_BaseAPIURL.h in Headers */,
+				CFB213F3206100FF00B23A36 /* iCustomKit.h in Headers */,
+				CFB214512061010000B23A36 /* PNetResourecManager.h in Headers */,
+				CFB2144A2061010000B23A36 /* PLoadStatusView.h in Headers */,
+				CFB213FD206100FF00B23A36 /* UIView+PToast.h in Headers */,
+				CFB214502061010000B23A36 /* PNetWorkHttpStubConfig.h in Headers */,
+				CFB21403206100FF00B23A36 /* UIImage+PImage.h in Headers */,
+				CFB213FE206100FF00B23A36 /* PBaseViewController+PToast.h in Headers */,
+				CFB214482061010000B23A36 /* PLoadStatusViewSet.h in Headers */,
+				CFB213F6206100FF00B23A36 /* UIView+PHUD.h in Headers */,
+				CFB214462061010000B23A36 /* PExpandTouchRegionButton.h in Headers */,
+				CFB21416206100FF00B23A36 /* PBaseViewController.h in Headers */,
+				CFB21405206100FF00B23A36 /* UIButton+PImageTitleSpacing.h in Headers */,
+				CFB214492061010000B23A36 /* PLoadStatusViewSetSource.h in Headers */,
+				CFB21424206100FF00B23A36 /* PWKWebView.h in Headers */,
+				CFB21419206100FF00B23A36 /* ZBMacro_NSLog.h in Headers */,
+				CFB213FA206100FF00B23A36 /* PBaseViewController+PLoadStatusView.h in Headers */,
+				CFB2140F206100FF00B23A36 /* PMacro_CustomKitBundle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CFB212102060E10E00B23A36 /* iCustomKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB212192060E10E00B23A36 /* Build configuration list for PBXNativeTarget "iCustomKit" */;
+			buildPhases = (
+				FD9326EB725BF4FBD2D3E6B2 /* [CP] Check Pods Manifest.lock */,
+				CFB2120C2060E10E00B23A36 /* Sources */,
+				CFB2120D2060E10E00B23A36 /* Frameworks */,
+				CFB2120E2060E10E00B23A36 /* Headers */,
+				CFB2120F2060E10E00B23A36 /* Resources */,
+				1791CDC2CBE07215D5D1685B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCustomKit;
+			productName = iCustomKit;
+			productReference = CFB212112060E10E00B23A36 /* iCustomKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFB212082060E10E00B23A36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = renqingyang;
+				TargetAttributes = {
+					CFB212102060E10E00B23A36 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CFB2120B2060E10E00B23A36 /* Build configuration list for PBXProject "iCustomKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFB212072060E10E00B23A36;
+			productRefGroup = CFB212122060E10E00B23A36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFB212102060E10E00B23A36 /* iCustomKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFB2120F2060E10E00B23A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1791CDC2CBE07215D5D1685B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-iCustomKit/Pods-iCustomKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD9326EB725BF4FBD2D3E6B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCustomKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB2120C2060E10E00B23A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB2144E2061010000B23A36 /* PNetWorkHttpStubConfig.m in Sources */,
+				CFB213F9206100FF00B23A36 /* UIButton+PImageTitleSpacing.m in Sources */,
+				CFB2144B2061010000B23A36 /* PLoadStatusView.m in Sources */,
+				CFB2140C206100FF00B23A36 /* PBaseViewController+PLoadStatusView.m in Sources */,
+				CFB21420206100FF00B23A36 /* PImgPickerTool.m in Sources */,
+				CFB2144C2061010000B23A36 /* PBaseResource.m in Sources */,
+				CFB213FB206100FF00B23A36 /* PBaseViewController+PHUD.m in Sources */,
+				CFB21402206100FF00B23A36 /* UIView+PHUD.m in Sources */,
+				CFB214452061010000B23A36 /* PExpandTouchRegionButton.m in Sources */,
+				CFB21425206100FF00B23A36 /* PWKWebView.m in Sources */,
+				CFB21417206100FF00B23A36 /* PWebViewController.m in Sources */,
+				CFB213F5206100FF00B23A36 /* UIImage+PImage.m in Sources */,
+				CFB2144D2061010000B23A36 /* PNetResourecManager.m in Sources */,
+				CFB21409206100FF00B23A36 /* UIView+PToast.m in Sources */,
+				CFB2140D206100FF00B23A36 /* UIButton+PBlock.m in Sources */,
+				CFB21408206100FF00B23A36 /* PBaseViewController+PToast.m in Sources */,
+				CFB21418206100FF00B23A36 /* PBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFB212172060E10E00B23A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFB212182060E10E00B23A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFB2121A2060E10E00B23A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1FA78DFC2FD287D8235DD4 /* Pods-iCustomKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = "${PRODUCT_NAME}/Header/${PRODUCT_NAME}-PrefixHeader.pch";
+				INFOPLIST_FILE = iCustomKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileOA.iCustomKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFB2121B2060E10E00B23A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382F53E0DC5ACE1B903DAE8F /* Pods-iCustomKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = "${PRODUCT_NAME}/Header/${PRODUCT_NAME}-PrefixHeader.pch";
+				INFOPLIST_FILE = iCustomKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileOA.iCustomKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFB2120B2060E10E00B23A36 /* Build configuration list for PBXProject "iCustomKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB212172060E10E00B23A36 /* Debug */,
+				CFB212182060E10E00B23A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB212192060E10E00B23A36 /* Build configuration list for PBXNativeTarget "iCustomKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB2121A2060E10E00B23A36 /* Debug */,
+				CFB2121B2060E10E00B23A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFB212082060E10E00B23A36 /* Project object */;
+}
