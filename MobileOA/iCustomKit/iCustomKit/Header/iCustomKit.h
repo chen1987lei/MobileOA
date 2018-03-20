@@ -47,13 +47,13 @@ FOUNDATION_EXPORT const unsigned char PCustomKitVersionString[];
 #import <iCustomKit/PNetWorkHttpStubConfig.h>
 #import <iCustomKit/PNetResourecManager.h>
 
-#pragma mark - ****************************************** Utilities ***********************************
+#pragma mark - ****************************************** Utilities ********************************
 
 #import <iCustomKit/PMacro_NSLog.h>
 #import <iCustomKit/PMacro_BaseAPIURL.h>
 #import <iCustomKit/PMacro_CustomKitBundle.h>
 
-// 若是通过引用源码或者lib库的方式使用类库，则需要以 #import "Core.h" 的方式引入头文件
+// 若是通过引用源码或者lib库的方式使用类库，则需要以 #import "iCustomKit.h" 的方式引入头文件
 #else
 
 #pragma mark - ****************************************** Extensions *******************************
@@ -84,7 +84,7 @@ FOUNDATION_EXPORT const unsigned char PCustomKitVersionString[];
 #import "PNetWorkHttpStubConfig.h"
 #import "PNetResourecManager.h"
 
-#pragma mark - ****************************************** Utilities ***********************************
+#pragma mark - ****************************************** Utilities ********************************
 
 #import "PMacro_CustomKitBundle.h"
 #import "PMacro_BaseAPIURL.h"
