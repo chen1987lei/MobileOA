@@ -1,9 +1,9 @@
 //
 //  PLoadStatusViewSet.h
-//  zhongan
+//  iCustomKit
 //
 //  Created by 任清阳 on 2017/4/13.
-//  Copyright © 2017年 zhongan. All rights reserved.
+//  Copyright © 2017年 ren. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -16,7 +16,7 @@
  
  @author renqingyang 2017-04-13 15:02:19.
  
- @copyright  zhongan.
+ @copyright  ren.
  
  @version  10.0.0.
  

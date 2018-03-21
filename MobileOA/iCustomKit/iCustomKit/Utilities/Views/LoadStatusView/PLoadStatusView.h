@@ -2,7 +2,7 @@
 //  PLoadStatusView.h
 //
 //  Created by 任清阳 on 15/11/5.
-//  Copyright © 2015年 zhongan. All rights reserved.
+//  Copyright © 2015年 ren. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
